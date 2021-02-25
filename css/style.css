@@ -1,5 +1,9 @@
 /* COMMON */
 
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .row {
   margin: 50px 0;
   text-align: center;
@@ -7,11 +11,18 @@
 }
 
 .grey {
-  background-color: #f9f9f9;
+  background-color: rgb(173, 173, 173);
+}
+
+.light-grey {
+  background-color: rgb(221, 221, 221);
+  padding: 1% 0;
+  border: 1px solid rgb(173, 173, 173);
 }
 
 img {
   height: 150px;
+  padding: 2% 0;
 }
 
 h2 {
@@ -57,6 +68,10 @@ h3 {
 }
 
 /* Section Steps */
+
+#steps {
+  padding: 2% 0;
+}
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .padding-md {
