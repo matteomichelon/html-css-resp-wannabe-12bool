@@ -1,9 +1,10 @@
 /* DEBUG */
 
-/* .debug .container {
-    height: 200px;
-    background-color: #ffc0cb;
+.debug .container {
+    background-color: blue;
 }
+
+/* 
 
 .debug [class*="col-"] {
     border: 1px solid black;
