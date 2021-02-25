@@ -1,7 +1,7 @@
 /* COMMON */
 
 .row {
-  margin: 50px 0; 
+  margin: 50px 0;
   text-align: center;
   width: 100%;
 }
@@ -19,7 +19,11 @@ h2 {
   margin-bottom: 3%;
 }
 
-
+@media all and (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 4vw;
+  }
+}
 
 /* Section Lezioni */
 
@@ -30,14 +34,20 @@ h2 {
   margin-left: auto;
 }
 
-
 /* Section Steps */
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .padding-md {
+    padding: 3% 10%;
+  }
+  #steps img {
+    height: 10vh;
+  }
+}
 
 /* Section Why */
 
 #why .row>.first, #why .row>.second, #why .row>.third {
-  width: 100%;
   margin: 40px auto;
 }
 
