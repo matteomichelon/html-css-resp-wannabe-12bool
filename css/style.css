@@ -1,24 +1,26 @@
 /* COMMON */
 
-@media all and (min-width: 992px) {
-  .row {
-    margin: 50px 0;
-    text-align: center;
-    width: 100%;
-  }
-  .grey {
-    background-color: #f9f9f9;
-  }
-  img {
-    height: 150px;
-  }
-  h2 {
-    font-size: 2vw;
-    margin-bottom: 3%;
-  }
-  h3 {
-    margin: 1% 0;
-  }
+.row {
+  margin: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 150px;
+}
+
+h2 {
+  font-size: 2vw;
+  margin-bottom: 3%;
+}
+
+h3 {
+  margin: 1% 0;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
