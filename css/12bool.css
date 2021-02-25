@@ -217,15 +217,14 @@
     }
 }
 
-}
 
 /* xs */
 
 @media all and (max-width: 767px) {
-    .col-xs1-1 {
+    .col-xs-1 {
         width: calc( ( 100% / 12) * 1);
     }
-    .col-xs2-2 {
+    .col-xs-2 {
         width: calc( ( 100% / 12) * 2);
     }
     .col-xs-3 {
@@ -296,6 +295,4 @@
     .col-xs-hidden {
         display: none;
     }
-}
-
 }
