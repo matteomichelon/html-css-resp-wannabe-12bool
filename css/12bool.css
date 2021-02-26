@@ -133,7 +133,7 @@
         margin-left: calc( ( 100% / 12) * 11);
     }
     /* Hidden */
-    .col-lg-hidden {
+    .lg-hidden {
         display: none;
     }
 }
@@ -212,7 +212,7 @@
         margin-left: calc( ( 100% / 12) * 11);
     }
     /* Hidden */
-    .col-md-hidden {
+    .md-hidden {
         display: none;
     }
 }
@@ -292,7 +292,7 @@
         margin-left: calc( ( 100% / 12) * 11);
     }
     /* Hidden */
-    .col-xs-hidden {
+    .xs-hidden {
         display: none;
     }
 }
