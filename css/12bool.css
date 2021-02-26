@@ -1,11 +1,5 @@
 /* DEBUG */
 
-.debug .container {
-    background-color: blue;
-}
-
-/* 
-
 .debug [class*="col-"] {
     border: 1px solid black;
     height: 100%;
@@ -30,7 +24,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
- */
 
 /* FRAMEWORK */
 
@@ -216,7 +209,6 @@
         display: none;
     }
 }
-
 
 /* xs */
 
